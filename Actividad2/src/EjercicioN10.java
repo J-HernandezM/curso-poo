@@ -6,7 +6,7 @@ public class EjercicioN10 {
 
         System.out.println("Ingrese su numero de inscripcion: ");
         int id = entry.nextInt();
-        entry.nextLine(); // Clean buffer
+        entry.nextLine(); // Clean buffer (es para limpiar el /n al presionar el enter, ya que a el nextInt no lo consume y el proximo nextLine lo consumiria)
         System.out.println("Ingrese su nombre: ");
         String name = entry.nextLine();
         System.out.println("Ingrese su patrimonio: ");

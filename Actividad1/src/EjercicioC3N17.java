@@ -1,4 +1,4 @@
-public class EjercicioN17 {
+public class EjercicioC3N17 {
     public static void main(String[] args) {
         double radius, circumference, area;
 

@@ -1,4 +1,4 @@
-public class EjercicioN14 {
+public class EjercicioC3N14 {
     public static void main(String[] args) {
         double number, squared, cubed;
 

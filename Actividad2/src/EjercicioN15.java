@@ -20,9 +20,9 @@ public class EjercicioN15 {
 
         ArrayList<Map.Entry<String, Double>> sortedSpheres = new ArrayList<>(spheres.entrySet());
 
-        sortedSpheres.sort(Comparator.comparing(Map.Entry::getValue));
-        System.out.println();
-        System.out.println(sortedSpheres.get(1).getValue().equals(sortedSpheres.get(0).getValue()));
+        sortedSpheres.sort(Comparator.comparing(Map.Entry::getValue)); // Map.Entry::getValue es equivalente a: entry -> entry.getValue();
+
+        int[] ints = { 1, 2, 3 };
 
         if (!sortedSpheres.get(0).getValue().equals(sortedSpheres.get(1).getValue())) {
             if (sortedSpheres.get(0).getValue() > sortedSpheres.get(sortedSpheres.size() - 1).getValue()) {

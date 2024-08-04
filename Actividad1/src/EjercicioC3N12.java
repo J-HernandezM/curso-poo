@@ -1,4 +1,4 @@
-class EjercicioN12 {
+class EjercicioC3N12 {
     public static void main(String[] args) {
         int hours = 48;
         int incomePerHour = 5000;
